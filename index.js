@@ -24,3 +24,9 @@ generatorBtn.addEventListener("click", function (){
     }
     passwordGenerated.value = passwordElements
 })
+
+copyBtn.addEventListener("click", function (){
+    let input = passwordGenerated.value;
+
+    navigator.clipboard.writeText(input);
+})
