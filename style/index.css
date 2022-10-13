@@ -3,15 +3,16 @@ body {
     padding: 0px;
     min-height: 100vh;
     background-color: #1C1C1C;
-    font-family: 'Karla', 'Inter', Arial, Helvetica, sans-serif;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 #container {
-    width: 550px;
-    height: 550px;
+    width: 570px;
+    height: 570px;
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -24,10 +25,10 @@ button {
     background-color:  #10B981;
     color: white;
     border: solid #10B981;
-    border-radius: 6px;
     padding: 9px 17px 9px 17px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 input {
@@ -36,7 +37,6 @@ input {
 
     background-color: #273549;
     border: 1px solid #273549;
-    border-radius: 6px;
 }
 
 /*typography*/
@@ -44,6 +44,8 @@ h1 {
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #first-line {
@@ -55,8 +57,61 @@ h1 {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: none;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 100;
     font-size: 20px;
     color: #D5D4D8;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
+
+/*container sizing and spacing*/
+.informational-content {
+    width: 480px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    border-bottom: 1px solid #2F3E53;
+}
+
+.password-results {
+    width: 480px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 39px;
+}
+
+/*buttons*/
+#generator-btn {
+    width: 190px;
+    height: 40px;
+    border-radius: 6px; 
+}
+
+.result-wrapper {
+    display: flex;
+    width: 225px;
+    height: 40px;
+}
+
+#copy-btn {
+    height: 43px;
+    border-radius: 4px;
+}
+
+/*footer*/
+
+footer {
+    color: #D5D4D8;
+    padding-top: 20px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+ a {
+    color: #D5D4D8;
+ }
