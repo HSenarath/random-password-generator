@@ -66,6 +66,11 @@ p {
     padding-bottom: 50px;
 }
 
+#password-generated {
+    color:#4ADF86;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
 /*container sizing and spacing*/
 .informational-content {
     width: 480px;

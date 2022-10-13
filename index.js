@@ -5,9 +5,22 @@ const characters =[
     'o','p','q','r','s','t','u','v','w','x','y','z','*','&','$','#','!','?','<','>','+'
     ];
 
+const passwordLength = 15;
+
 // variables storing button elements
-const generatorBtn = document.getElementById("generate-btn");
+const generatorBtn = document.getElementById("generator-btn");
 const copyBtn = document.getElementById("copy-btn");
 
 // variable storing text field element
-const passwordGenerated = document.getElementById("password-generated");
+let passwordGenerated = document.getElementById("password-generated");
+
+generatorBtn.addEventListener("click", function (){
+    let passwordElements = "";
+
+    for (i = 0; i < passwordLength; i++) {
+        // outputs random number between 1 and length of the character array
+        let randomNumber = Math.floor(Math.random() * characters.length) + 1
+        passwordElements += characters[randomNumber]
+    }
+    passwordGenerated.value = passwordElements
+})
