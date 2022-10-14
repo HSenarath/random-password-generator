@@ -5,7 +5,7 @@ const characters =[
     'o','p','q','r','s','t','u','v','w','x','y','z','*','&','$','#','!','?','<','>','+'
     ];
 
-const passwordLength = 15;
+const passwordLengthEl = document.getElementById("password-length");
 const copyMessageEl = document.getElementById("copied-message");
 
 // variables storing button elements
@@ -17,6 +17,7 @@ let passwordGenerated = document.getElementById("password-generated");
 
 generatorBtn.addEventListener("click", function (){
     let passwordElements = "";
+    let passwordLength = passwordLengthEl.value;
 
     for (i = 0; i < passwordLength; i++) {
         // outputs random number between 1 and length of the character array
