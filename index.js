@@ -6,6 +6,7 @@ const characters =[
     ];
 
 const passwordLength = 15;
+const copyMessageEl = document.getElementById("copied-message");
 
 // variables storing button elements
 const generatorBtn = document.getElementById("generator-btn");
@@ -29,4 +30,6 @@ copyBtn.addEventListener("click", function (){
     let input = passwordGenerated.value;
 
     navigator.clipboard.writeText(input);
+
+    copyMessageEl.textContent = "Copied Successfully";
 })

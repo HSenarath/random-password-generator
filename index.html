@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,16 +16,18 @@
             <h1 id="first-line">Generate a</h1>
             <h1 id="second-line">random password</h1>
             <p>Never use an insecure password again.</p>
-        <button id="generator-btn">Generate passwords</button>
+            <button id="generator-btn">Generate passwords</button>
         </div>
         <div class="password-results">
             <div class="result-wrapper">
                 <input type="text" id="password-generated" readonly>
                 <button id="copy-btn">Copy</button>
             </div>
-            <script src="index.js"></script>
+            <p id="copied-message"></p>
         </div>
+        <p id="copied-message"></p>
     </div>
     <footer>© 2022 <a href="https://github.com/HSenarath/random-password-generator" target="_blank">Hiruni Senarath</a></footer>
+    <script src="index.js"></script>
 </body>
 </html>
