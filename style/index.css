@@ -6,6 +6,7 @@ body {
 /*typography*/
 
 h1 {
+    margin: 0;
     color: white;
 }
 
@@ -14,6 +15,7 @@ h1 span {
 }
 
 h2, #length-text {
+    margin: 0;
     color: #D5D4D8;
 }
 
@@ -32,4 +34,28 @@ h2, #length-text {
 footer, footer a {
     color:#D5D4D8;
 
+}
+
+/*container*/
+#container {
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 80%; /*will grow to be 80% of the window*/
+    max-width: 550px; /*setting it so that the main container won't ever grow larger than 550px*/
+}
+
+#card {
+    border: 1px solid purple;
+}
+
+#section-one {
+    border: 1px solid purple;
+}
+
+#section-two {
+    border: 1px solid purple;
+}
+
+#footer-container {
+    border: 1px solid blue;
 }
