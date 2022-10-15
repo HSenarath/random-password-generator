@@ -19,6 +19,7 @@ const copyBtn = document.getElementById("copy-btn");
 let passwordGenerated = document.getElementById("password-generated");
 
 generatorBtn.addEventListener("click", function (){
+    copyMessageEl.textContent="";
     let passwordElements = "";
     let passwordLength = passwordLengthEl.value;
     
@@ -38,6 +39,6 @@ copyBtn.addEventListener("click", function (){
 
         navigator.clipboard.writeText(input);
     
-        copyMessageEl.textContent = "Copied Successfully";
+        copyMessageEl.textContent = "Copied Successfully!";
     }
 })
