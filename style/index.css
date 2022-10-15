@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    /* defaultt font size: font-size: 16px;*/
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
@@ -7,6 +8,7 @@ body {
 
 h1 {
     margin: 0;
+    font-size: 2.5rem;
     color: white;
 }
 
@@ -19,19 +21,32 @@ h2, #length-text {
     color: #D5D4D8;
 }
 
+h2 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+#length-text {
+    font-size: 1rem;
+}
+
 .button-text {
+    font-size: 1rem;
     color: white;
 }
 
 .textfield-text {
+    font-size: 1rem;
     color: #4ADF86;
 }
 
 #copied-message {
+    font-size: 1rem;
     color:#4ADF86;
 }
 
 footer, footer a {
+    font-size: 0.9rem;
     color:#D5D4D8;
 
 }
