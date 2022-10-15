@@ -2,6 +2,7 @@ body {
     margin: 0;
     /* defaultt font size: font-size: 16px;*/
     font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background-color: #1C1C1C;
 }
 
 /*typography*/
@@ -23,7 +24,7 @@ h2, #length-text {
 
 h2 {
     font-size: 1.25rem;
-    font-weight: normal;
+    font-weight: 100;
 }
 
 #length-text {
@@ -61,16 +62,23 @@ footer, footer a {
 
 #card {
     border: 1px solid purple;
+    background-color: #1F2937;
 }
 
 #section-one {
+    margin: 0 auto;
     border: 1px solid purple;
+    border-bottom: 1px solid #2F3E53;
+    width: 80%;
 }
 
 #section-two {
     border: 1px solid purple;
+    margin: 0 auto;
+    width: 80%
 }
 
 #footer-container {
+    text-align: center;
     border: 1px solid blue;
 }
