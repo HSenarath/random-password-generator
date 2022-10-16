@@ -1,19 +1,24 @@
 # Random Password Generator 
 
-A simple webpage that allows users to create a randomized password. This was an optional solo project challenge from [Scrimba's JavaScript Course](https://scrimba.com/learn/learnjavascript/).
+A simple webpage that allows users to create a randomized password. This was an optional solo project from [Scrimba's JavaScript Course](https://scrimba.com/learn/learnjavascript/).
 
-With my recent purchase of [1Password](https://1password.com/), a password manager service, I was inspired to take on this challenge to see how I could create a secure password by generating a random set of characters. This also allowed me to utilize my newly acquired JavaScript skills to ensure that I could build a project without guidance.
+With my recent purchase of [1Password](https://1password.com/), a password manager service, I was inspired to take on this challenge to see how I could create a secure password by generating a random set of characters.
+
+This also allowed me to utilize my newly acquired JavaScript skills to ensure that I could build a project without guidance.
 
 ## Table of Contents
+* [Demo] (#demo)
 * [Technologies](#technologies)
 * [Overview](#overview)
     * [Requirements](#requirements)
     * [Screenshots](#screenshots)
-    * [Demo](#demo)
 * [Next Steps](#next-steps)
 * [Useful Resources](#useful-resources)
 * [Author](#author)
-	
+
+## Demo
+* Live Site URL: [https://hsenarath.github.io/random-password-generator/](https://hsenarath.github.io/random-password-generator/)
+
 ## Technologies
 **Built with:**
 * Semantic HTML5 markup
@@ -37,9 +42,6 @@ With my recent purchase of [1Password](https://1password.com/), a password manag
 
 ![](https://github.com/HSenarath/random-password-generator/blob/915b8c9749e830a0ae1e6fac05377cf15e511aa6/screenshots/password-generator-responsive.gif)
 
-### Demo
-* Live Site URL: [https://hsenarath.github.io/random-password-generator/](https://hsenarath.github.io/random-password-generator/)
-
 ## Next Steps
 - [x] Implement the feature to choose to enable/disable numbers and symbols
 - [x] Ensure the generated password stays within the container of the text field
@@ -52,5 +54,5 @@ With my recent purchase of [1Password](https://1password.com/), a password manag
 
 ## Author
 * Portfolio Website - [Coffee and Code](https://hsenarath.github.io/coffee-and-code/)
-* LinkedIn - (www.linkedin.com/in/hirunisenarath)[www.linkedin.com/in/hirunisenarath]
+* LinkedIn - [www.linkedin.com/in/hirunisenarath](www.linkedin.com/in/hirunisenarath)
 * Github - [@hsenarath](https://github.com/HSenarath)
