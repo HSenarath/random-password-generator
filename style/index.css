@@ -1,14 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
+    min-height: 100vh;
     /* defaultt font size: font-size: 16px;*/
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    background-color: #1C1C1C;
+    font-size: 1rem;
+    text-align: center;
 }
 
 /*typography*/
 
 h1 {
-    margin: 0;
     font-size: 2.5rem;
     color: white;
 }
@@ -23,15 +28,17 @@ h2, #length-text {
 }
 
 h2 {
+    margin: 0px;
     font-size: 1.25rem;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 #length-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 200;
 }
 
-.button-text {
+.btn {
     font-size: 1rem;
     color: white;
 }
@@ -44,6 +51,7 @@ h2 {
 #copied-message {
     font-size: 1rem;
     color:#4ADF86;
+    text-align: center;
 }
 
 footer, footer a {
@@ -53,32 +61,163 @@ footer, footer a {
 }
 
 /*container*/
+
+h1 {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
 #container {
-    margin: 0 auto;
-    border: 1px solid red;
-    width: 80%; /*will grow to be 80% of the window*/
-    max-width: 550px; /*setting it so that the main container won't ever grow larger than 550px*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #1C1C1C;
+    /*width: 80%;
+    height: 100%;
+    margin: 30px;*/
 }
 
 #card {
-    border: 1px solid purple;
+    /*height: 550px;
+    width: 550px;*/
+    width: 85%;
+    max-width: 550px;
+    display: flex;
+    align-items: flex-end;
     background-color: #1F2937;
+    border-radius: 5px;
+}
+
+#card-content {
+    width: 85%;
+    margin: 0 auto;
 }
 
 #section-one {
-    margin: 0 auto;
-    border: 1px solid purple;
+    text-align: center;
+    border-bottom: 1px solid #2F3E53;
+    padding-bottom: 40px;
+    /*margin: 0 auto;
     border-bottom: 1px solid #2F3E53;
     width: 80%;
+    height: 70%;*/
+}
+
+#password-wrapper {
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#password-length-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#password-length {
+    background-color: #273549;
+    bordeR: 0;
+    position: relative;
+    padding: 5px 0px 5px 12px;
+    width: 55%;
+}
+
+#password-length:focus {
+    outline: thin solid;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 0.9;
+    width: 1em;
+    border-left: 4px solid #888;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #section-two {
-    border: 1px solid purple;
-    margin: 0 auto;
-    width: 80%
+    padding-top: 30px;
+}
+
+#password-generated-wrapper {
+    display: flex;
+}
+
+#password-generated {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #273549;
+    border: 0;
+    outline: none;
 }
 
 #footer-container {
     text-align: center;
-    border: 1px solid blue;
+}
+
+/*buttons*/
+
+.btn-wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    text-align: center;
+    background-color: #4ADF86;
+    border: 2px solid #4ADF86;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.btn:focus {
+    outline: 2px dotted #FBBF24;
+ }
+
+ .btn:hover {
+     background-color: #10B981;
+     border: 2px solid #10B981;
+ }
+
+ .btn img {
+    margin-right: 8px;
+ }
+
+ .btn-copy {
+     flex: 0 0 35%;
+ }
+
+/*input fields*/
+
+
+
+
+/*media queries*/
+h1 {
+    width: 80%;
+}
+
+#password-wrapper {
+    width: 51%;
+}
+
+#card {
+    width: 85%;
+}
+
+.btn-generator {
+    flex: 0 0 50%;
+}
+
+.btn-copy {
+    flex-basis: 100px;
 }
