@@ -143,6 +143,9 @@ input[type=number]::-webkit-inner-spin-button {
 #section-two {
     padding-top: 30px;
     padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #password-generated-wrapper {
