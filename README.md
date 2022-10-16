@@ -7,7 +7,7 @@ With my recent purchase of [1Password](https://1password.com/), a password manag
 This also allowed me to utilize my newly acquired JavaScript skills to ensure that I could build a project without guidance.
 
 ## Table of Contents
-* [Demo] (#demo)
+* [Demo](#demo)
 * [Technologies](#technologies)
 * [Overview](#overview)
     * [Requirements](#requirements)
