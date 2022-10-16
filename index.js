@@ -5,6 +5,7 @@ const allCharacters =[
     'o','p','q','r','s','t','u','v','w','x','y','z','*','&','$','#','!','?','<','>','+'
     ];
 
+// variable to store the password length user picked
 const passwordLengthEl = document.getElementById("password-length");
 
 // variables for copy button
@@ -18,6 +19,7 @@ const copyBtn = document.getElementById("copy-btn");
 // variable storing text field element
 let passwordGenerated = document.getElementById("password-generated");
 
+// function that gets triggered when the 'Generate Password' button is selected
 generatorBtn.addEventListener("click", function (){
     copyMessageEl.textContent="";
     let passwordElements = "";
@@ -33,6 +35,7 @@ generatorBtn.addEventListener("click", function (){
     isPasswordCreated = true;
 })
 
+// function that gets triggered when the 'Copy' button is selected
 copyBtn.addEventListener("click", function (){
     if (isPasswordCreated === true) {
         let input = passwordGenerated.value;
