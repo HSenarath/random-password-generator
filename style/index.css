@@ -34,13 +34,11 @@ h1 {
     font-size: 1rem;
     letter-spacing: 1px;
     text-align: left;
-    font-weight: 100;
 }
 
 #password-length-wrapper label {
     font-size: 1.1rem;
     color: #D5D4D8;
-    font-weight: 200;
 }
 
 .btn {
