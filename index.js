@@ -28,10 +28,10 @@ generatorBtn.addEventListener("click", function (){
 
     for (i = 0; i < passwordLength; i++) {
         // outputs random number between 1 and length of the character array
-        let randomNumber = Math.floor(Math.random() * allCharacters.length) + 1
-        passwordElements += allCharacters[randomNumber]
+        let randomNumber = Math.floor(Math.random() * allCharacters.length) + 1;
+        passwordElements += allCharacters[randomNumber];
     }
-    passwordGenerated.value = passwordElements
+    passwordGenerated.value = passwordElements;
     isPasswordCreated = true;
 })
 
